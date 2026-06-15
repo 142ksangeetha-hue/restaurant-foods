@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Georgia, serif;
+}
+
+/* Navbar */
+nav{
+    background:rgb(90, 90, 220);
+    padding:10px;
+}
+
+nav ul{
+    list-style:none;
+    text-align:right;
+}
+
+nav ul li{
+    display:inline-block;
+    margin:0 10px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* Recipe Section */
+.recipes{
+    width:90%;
+    margin:20px auto;
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:280px;
+    border:1px solid #d98a8a;
+    overflow:hidden;
+}
+
+.card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.card-content{
+    background:#c018e6;
+    text-align:center;
+    padding:15px;
+}
+
+.card-content h3{
+    margin-bottom:15px;
+    font-size:18px;
+}
+
+.card-content button{
+    background:#222;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.card-content button:hover{
+    background:#cb9ecb;
+}
+
+/* Contact Section */
+.contact-section{
+    background:#6f92d8;
+    color:black;
+    text-align:center;
+    padding:40px;
+}
+
+.contact-section h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+form{
+    display:inline-block;
+}
+
+.input-group{
+    margin:10px 0;
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.input-group label{
+    width:70px;
+    text-align:right;
+    font-size:20px;
+}
+
+.input-group input{
+    padding:8px;
+    width:250px;
+}
+
+.send-btn{
+    margin-top:20px;
+    padding:12px 25px;
+    background:#da2b14;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.send-btn:hover{
+    background:#db796e;
+}
